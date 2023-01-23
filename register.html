@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website - Register</title>
+
+    <!-- embedded CSS, creating class -->
+    <style>
+        h1 {
+            color: #a6bdaf;
+            }
+
+        .inline {
+            display: inline-block;
+            vertical-align: middle;
+            }
+
+        header {
+            background: linen;
+            text-align: center;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #websiteLogo {
+            border: 1px solid #ddd;
+            border-radius: 20%;
+            margin: 5px;
+            width: 100px;
+        }
+
+        .nav-item {
+            text-decoration: none;
+            background: #ccbc9d;
+            margin: 5px;
+            padding: 10px;
+            color: white;
+            display: inline-block;
+
+        }
+
+        .large-padding-left{
+            padding-left: 40px;
+        }
+
+        input{
+            width: 400px;
+            border: 0;
+            border-bottom: 2px solid #ccbc9d;
+            font-size: large;
+        }
+
+        .block{
+            display: block;
+            padding: 2px;
+            color: #a6bdaf;
+            font-weight: bold;
+        }
+
+        .margin-bottom-top{
+            margin-bottom: 4px;
+            margin-top:4px;
+            }
+
+        .button{
+            font-size:25px;
+            border: 0;
+            padding: 10px;
+            width: 120px;
+            background: #ccbc9d;
+            color: white;
+        }
+
+        header > nav > a {
+        vertical-align: middle;
+        }
+
+
+        header > nav > a > img {
+            width: 50px;
+            object-fit: cover;
+
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+<header class="large-padding-left">
+    <div>
+        <img id="websiteLogo" alt="logo alt text" src="https://media1.popsugar-assets.com/files/thumbor/26OimuxpHckL_AatP7_bCOpjimM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/07/29/044/n/44498184/e1a4c790b526f7d3_GettyImages-107599388/i/Cute-Pictures-Pugs.jpg" class="inline"/>
+        <h1 class="inline">Website About Pugs</h1>
+    </div>
+    <!-- navigation section for -->
+
+    <nav style="display: flex; justify-content: center;">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="register.html">Register</a>
+        <a class="nav-item" href="profile.html">Profile</a>
+    </nav>
+
+</header>
+
+<main class="large-padding-left">
+    <!-- section for everything else except of the header-->
+    <section>
+        <h3 style="color: #a6bdaf;">Register</h3>
+    </section>
+
+    <section>
+        <form action="register.html" method="post">
+            <!-- method="get" to send data in the URL and everybody can see it -->
+            <!-- method="post" to send data HIDED not in the URI - could be inspected via INSPECT -->
+
+            <div class="margin-bottom-top">
+                <label class="block">Username:</label>
+                <input  class="block" name="username" type="text" required minlength="4">
+            </div>
+
+            <div class="margin-bottom-top">
+                <label class="block">Age:</label>
+                <input  class="block" name="age" type="number" required>
+            </div>
+
+            <div class="margin-bottom-top">
+                <label class="block">Email:</label>
+                <input  class="block" name="email" type="email" required>
+            </div>
+
+            <div class="margin-bottom-top">
+                <label class="block">Password:</label>
+                <input  class="block" name="password" type="password" minlength="8" required>
+            </div>
+
+            <div class="margin-bottom-top">
+                <button class="button" type="submit">Register</button>
+            </div>
+        </form>
+    </section>
+
+
+</main>
+
+</body>
+</html>
