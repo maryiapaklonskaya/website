@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83bb0630-cdc6-438c-af9d-a5898903f617" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LI-In-Bug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LI-Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maryia Paklonskaya_ProductManager.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebsiteExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maryia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maryia1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maryia2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles_personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +53,19 @@
       <option name="presentableId" value="Default" />
       <updated>1674233083673</updated>
     </task>
+    <task id="LOCAL-00001" summary="personal website v1">
+      <created>1674476635708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674476635709</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="personal website v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="personal website v1" />
   </component>
 </project>
